@@ -1,4 +1,4 @@
-[🔃 (go-to 🇧🇷) Versão em Português-BR](https://github.com/camimq/landing_page/blob/main/README_pt-BR.md)
+[🔃 (go-to 🇧🇷) Versão em Português-BR](https://github.com/camimq/alura_store/blob/main/README_pt-BR.md)
 
 <p align="center"><img width="150px" src="./assets/img/games.svg"></p>
 
