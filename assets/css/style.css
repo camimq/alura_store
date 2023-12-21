@@ -1,0 +1,37 @@
+.app {
+    background: #f1f1f1;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: /* Determina as áreas do layout. Deve aparecer na ordem correta. */
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto; /*para este layout, temos apenas uma coluna, por isso, manteremos como automática. */
+    grid-template-rows: 50px auto auto;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    grid-area: cabecalho; /* conecta esta parte do conteúdo às áreas determinadas do grid. */
+    padding: 0 2rem;
+}
+ 
+.conteudo {
+    grid-area: conteudo; /* conecta esta parte do conteúdo às áreas determinadas do grid. */
+    padding: 0 2rem;
+}
+
+.rodape {
+    background: #FDFDFD;
+    color: #333333;
+    font-size: .8rem;
+    grid-area: rodape;
+    padding: 1rem;
+    text-align: center;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: #333333;
+}
